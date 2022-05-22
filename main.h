@@ -44,8 +44,6 @@ char *convert(unsigned long int num, int base, int lowercase);
 int _printf(const char *format, ...);
 int (*get_print(char s))(va_list, flags_t *);
 int get_flag(char s, flags_t *f);
-int get_modifier(char *s, flags_t *f)
-char *get_width(char *s, flags_t *f, va_list list)
 int print_string(va_list l, flags_t *f);
 int print_char(va_list l, flags_t *f);
 int _putchar(char ch);
